@@ -104,7 +104,8 @@ def strings_collate(s1, s2, mode='+'):
 
 def main():
     ap = argparse.ArgumentParser(
-        "task No. 4: strings collation",
+        "task4.py",
+        description = "strings collation",
         formatter_class=argparse.RawTextHelpFormatter,
     )
 

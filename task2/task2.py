@@ -29,6 +29,8 @@ def sqeq(a, b, c):
     :param a: int or float
     :param b: int or float
     :param c: int or float
+
+    :returns: roots, even if they are complex
     """
     D = b**2 - 4*a*c
     # print('D:', D)
@@ -40,6 +42,7 @@ def sqeq(a, b, c):
 
 
 def get_distance(point, line_a, line_b):
+    """unused and untested function, returns distance between line and point"""
     linevec = line_a - line_b
     return (point - line_a).vector_mul(linevec).abs() / linevec.abs()
 
@@ -95,7 +98,7 @@ def get_intersect(center, radius, line_a, line_b):
 
 
 def main():
-    ap = ArgumentParser("task No. 2: intersection points of line and sphere")
+    ap = ArgumentParser("task2.pu", description="intersection points of line and sphere")
 
     ap.add_argument("data_filename")
     ap.add_argument("answer_filename")
