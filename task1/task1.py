@@ -2,13 +2,7 @@ import sys
 import argparse
 
 
-questions = """
 
-- надо ли маркировать перегрузку:
-    itoBase(nb, baseSrc) --> itoBase(nb, baseSrc, baseDst)
-    а то мало ли
-
-"""
 
 
 def itoBase(nb, base):

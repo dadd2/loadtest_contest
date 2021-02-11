@@ -4,12 +4,6 @@ import argparse
 DEBUG = False
 # DEBUG = True
 
-questions = """
-
-- Какое mode использовать?
-- Какие ограничения по длине сравниваемых строк?
-- Какой формат ввода/вывода?
-"""
 
 
 lazy_help = """defines how lazy algorythm will search for coinsidence,
