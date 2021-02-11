@@ -1,4 +1,0 @@
-condition_time_end, condition_time_start, scoop__count_attempts, scoop__percent_errs, scoop__vol_accepted, scoop__vol_rejected, top_up__count_attempts, top_up__percent_errs, top_up__vol_accepted, top_up__vol_rejected, vol_after, vol_before
-2021-02-10T04:17:03, 2021-01-10T01:19:53, 3, 33.33, 2, 1, 7, 28.57, 5, 2, 0, 299
-2021-02-10T04:17:03, 2021-01-10T01:19:53, 3, 33.33, 2, 1, 7, 28.57, 5, 2, 0, 299
-2021-02-10T04:17:03, 2021-01-10T01:19:53, 4, 25.0, 3, 1, 7, 42.86, 4, 3, 0, 5
